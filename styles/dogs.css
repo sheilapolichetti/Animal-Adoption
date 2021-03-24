@@ -1,0 +1,43 @@
+*{font-family: 'Poppins', sans-serif;} 
+*{font-family: 'Roboto', sans-serif;}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    margin:0;
+}
+
+.header-design {
+    background-color: #007CBA;
+    color: #ffff;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.fasfa-paw {
+    color: black;
+}
+
+.first-title {
+    
+}
