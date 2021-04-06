@@ -212,11 +212,31 @@ img {
     flex-direction: column;
     align-items: center;
     width: 80%;
+    padding: 3rem;
   }
   
   ul {
     font-size: 25px;
   }
+
+  .adoptme-btn {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    display: flex;
+    border-radius: 12px;
+    margin: 12px;
+    margin-bottom: 30px;
+    padding: 12px;
+    width: 20rem;
+    justify-content: center;
+  }
+
+  .adoptme-btn:hover {
+    transition: all 0.5s ease;
+    font-size: 3rem;
+  }
+
+  /* footer */
   
   footer {
     background: #007CBA;
