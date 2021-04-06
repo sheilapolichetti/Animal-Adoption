@@ -7,7 +7,7 @@
 
 nav {
   display: flex;
-  width: 80%;
+  width: 100%;
   margin: auto;
   padding: 2rem;
   min-height: 10vh;
@@ -208,6 +208,8 @@ ul {
   cursor: pointer;
   border-radius: 5px;
   font-size: 15px;
+  background-color: #D334A7;
+  color:#fff;
 }
 
 .cat2__btn:hover {
@@ -220,8 +222,69 @@ ul {
   width: 100px;
   height: 30px;
   cursor: pointer;
+  background-color: #D334A7;
+  color: #fff;
+  border-radius: 4rem;
+  border:none;
+}
+
+.back__cats-button:hover {
+  background-color: #cc68b0;
+  transition: all 0.5s ease;
 }
 
 .fa-backward {
   margin-right: 5px;
+}
+
+/* Footer Section */
+
+footer {
+  background: #007CBA;
+  width: 100%;
+}
+
+.footer-container {
+  width: 80%;
+  margin: auto;
+  padding: 6rem 0;
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  min-height: 30vh;
+}
+
+.footer-info {
+  margin-left: 4rem;
+}
+
+.logo-footer {
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+  font-size: 3.6rem;
+}
+
+.footer-links li {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-social img {
+  margin-right: 2rem;
+}
+
+.copy-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  background: #D334A7;
+  color: white;
+  min-height: 5vh;
+  font-family: "Roboto", sans-serif;
 }
