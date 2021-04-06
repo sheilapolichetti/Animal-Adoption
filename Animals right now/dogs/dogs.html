@@ -4,39 +4,156 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/dogs.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/dogs.css" />
+    <script
+      src="https://kit.fontawesome.com/ecfaedbce8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pattaya|Poppins:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/icons/dog.svg" />
     <title>Dogs</title>
   </head>
   <body>
-    <header>
-      <div class="header-design">
-      <span class="fasfa-paw"></span>
-      <h1 class="logo">Adoptionland</h1>
-      <nav>
-        <div class="topnav">
-            <a href="/index.html">Home</a>
-            <a href="/contact.html">Contact</a>
-            <a class="active" href="/Animals right now/dogs/dogs.html">Dogs</a>
-            <a href="/Animals right now/cats/cats.html">Cats</a>
+    <div class="big-screen-wrapper">
+      <header class="main-head">
+        <nav>
+          <h1 id="logo">Adoptionland</h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a class="current" href="#">Animals</a></li>
+            <li>
+              <a href="#"
+                ><img
+                  src="/icons/user.svg"
+                  height="30px"
+                  width="30px"
+                  alt="user"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="all-dogs">
+        <div class="btn-maindogs">
+          <a href="/index.html"
+            ><button class="back-dogsbtn">
+              <i class="fas fa-backward"></i>Go back
+            </button></a
+          >
+        </div>
+        <div>
+          <h1 class="first-title">Do you love dogs? We do too!</h1>
+        </div>
+        <div class="first-p">
+          <p>
+            We believe that every dog has a right to find their forever home and
+            family, which is why we work so that every dog that comes to us will
+            within in a year find their right place to be. We are an
+            organization that works to relocate all cats and dogs that are
+            looking for their forever home. Here are the dogs currently with us
+            right now, click on the pictures for more info!
+          </p>
+        </div>
+        <div class="alldogs-container">
+          <div class="container">
+            <h2>Benny</h2>
+            <img
+              src="/images/benny.jpg"
+              alt="Avatar"
+              class="image"
+              height="100"
+              width="100"
+            />
+            <div class="middle">
+              <a href="/Animals right now/dogs/actual dogs/benny.html"
+                ><button class="dog-btn">More info</button></a
+              >
+            </div>
+          </div>
+
+          <div class="container">
+            <h2>Rex</h2>
+            <img src="/images/rex.jpg" alt="Avatar" class="image" />
+            <div class="middle">
+              <a href="/Animals right now/dogs/actual dogs/rex.html"
+                ><button class="dog-btn">More info</button></a
+              >
+            </div>
+          </div>
+
+          <div class="container">
+            <h2>Pancake</h2>
+            <img src="/images/pancake.jpg" alt="Avatar" class="image" />
+            <div class="middle">
+              <a href="/Animals right now/dogs/actual dogs/pancake.html"
+                ><button class="dog-btn">More info</button></a
+              >
+            </div>
           </div>
         </div>
-      </nav>
+        <i class="fas fa-paw fa-3x"></i>
+      </section>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-info">
+            <h3 class="logo-footer">Adoptionland</h3>
+            <p>
+              Adoptionland is based in Stockholm, Sweden, and is<br />
+              home to more than 100 dogs and cats. Our wonderful <br />adoptable
+              dogs and cats are waiting for you right now!
+            </p>
+          </div>
+          <div class="footer-links">
+            <h3>Pages</h3>
+            <ul>
+              <li><a href="#">- HOME</a></li>
+              <li><a href="#">- ABOUT US</a></li>
+              <li><a href="#">- ADOPT TODAY</a></li>
+              <li><a href="#">- LOG IN</a></li>
+              <li><a href="#">- CONTACT</a></li>
+              <li><a href="#">- COOKIES & PRIVACY</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3>Give us a follow</h3>
+            <img
+              src="./icons/twitter.svg"
+              width="50px"
+              height="50px"
+              alt="twitter"
+            />
+            <img
+              src="./icons/youtube.svg"
+              width="50px"
+              height="50px"
+              alt="youtube"
+            />
+            <img
+              src="./icons/instagram.svg"
+              width="50px"
+              height="50px"
+              alt="instagram"
+            />
+          </div>
+        </div>
+        <div class="copy-box">
+          &copy; 2021 - By group 4, Sundsgårdens folkhögskola ;-)
+        </div>
+      </footer>
     </div>
-    </header>
-    <section>
-      <h1 class="first-title">Do you love dogs? We do too!</h1>
-      <div class="img-left">
-        <img src="" alt="" />
-        <p class="first-p">
-          We believe that every dog has a right to find their forever home and
-          family, which is why we work so that every dog that comes to us will
-          within in a year find their right place to be. We are an organization
-          that works to relocate all cats and dogs that are looking for home, to
-          their home.
-        </p>
-      </div>
-    </section>
   </body>
 </html>
