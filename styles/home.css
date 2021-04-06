@@ -57,13 +57,17 @@ button {
   margin-top: 3rem;
 }
 
+body {
+  margin:auto;
+}
+
 button:hover {
   background: #007CBA;
 }
 
 .big-screen-wrapper{
 margin: auto;
-max-width: 150rem;
+max-width: 180rem;
 }
 
 /* Newsletter box */
