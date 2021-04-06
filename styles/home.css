@@ -58,7 +58,7 @@ button {
 }
 
 body {
-  margin:auto;
+  margin: auto;
 }
 
 button:hover {
@@ -66,8 +66,7 @@ button:hover {
 }
 
 .big-screen-wrapper{
-margin: auto;
-max-width: 180rem;
+margin: 0 auto;
 }
 
 /* Newsletter box */
@@ -133,6 +132,7 @@ button:hover {
 .main-head {
   background: #007CBA;
   color: white;
+  width: 100%;
 }
 
 nav {
@@ -336,7 +336,7 @@ footer a {
 /* Media Query */
 
 @media (max-width: 600px) {
-  html {
+   html {
     font-size: 45%;
   }
   nav {
@@ -366,6 +366,7 @@ footer a {
   html {
     font-size: 65%;
   }
+
 
   #logo {
     text-align: center;
