@@ -188,6 +188,7 @@ img {
   .back-dogsbtn {
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+    width: 8rem;
     border-radius: 5px;
     margin: 12px;
   }
@@ -217,29 +218,6 @@ img {
     font-size: 25px;
   }
   
-  .backdogs-btn {
-    font-family: 'Poppins', sans-serif;
-    width: 300px;
-    height: 40px;
-    font-weight: 600;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 15px;
-    margin: 12px;
-  }
-  
-  .backdogs-btn:hover {
-    background-color: #007CBA;
-    transition: all 0.5s ease;
-    font-size: 17px;
-  }
-  
-  .backdogs-btn {
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
-  }
-
   footer {
     background: #007CBA;
     width: 100%;
