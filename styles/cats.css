@@ -311,6 +311,13 @@ footer a {
   text-decoration: none;
 }
 
+footer h3 {
+  font-size: 3rem;
+  font-family: "roboto", sans-serif;
+  font-weight: normal;
+  margin: 0 0 3rem 0;    
+}
+
 .footer-social img {
   margin-right: 2rem;
 }
