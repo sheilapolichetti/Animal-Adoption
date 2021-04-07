@@ -65,9 +65,14 @@ button:hover {
   background: #007CBA;
 }
 
+/*
 .big-screen-wrapper{
 margin: 0 auto;
-}
+max-width: 160rem;
+} 
+
+I want the header, newsletter box and footer backgrounds to strech full width while all other content stay centerad after 160rem. How can I solve this?
+ */
 
 /* Newsletter box */
 
@@ -79,6 +84,7 @@ margin: 0 auto;
   text-align: center;
   background: #007CBA;
   color: white;
+
 }
 
 .img-icon {
