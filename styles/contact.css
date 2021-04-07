@@ -4,14 +4,55 @@
   box-sizing: border-box;
 }
 
-body,
-html {
-  height: 100%;
-  font-family: "roboto", sans-serif;
-}
 
 html {
   font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 4.8rem;
+  margin: 3rem 0;
+  font-family: "roboto", sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 3rem;
+  font-family: "roboto", sans-serif;
+  font-weight: normal;
+  margin: 0 0 3rem 0;
+}
+
+h4,
+h5 {
+  font-size: 2.8rem;
+  font-family: "roboto", sans-serif;
+  font-weight: normal;
+}
+
+button {
+  padding: 2rem 6rem;
+  background-color: #D334A7;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-radius: 4rem;
+  margin-top: 3rem;
 }
 
 /* Header */
