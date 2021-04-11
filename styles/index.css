@@ -65,15 +65,6 @@ button:hover {
   background: #007CBA;
 }
 
-/*
-.big-screen-wrapper{
-margin: 0 auto;
-max-width: 160rem;
-} 
-
-I want the header, newsletter box and footer backgrounds to strech full width while all other content stay centerad after 160rem. How can I solve this?
- */
-
 /* Newsletter box */
 
 .newsletter {
@@ -82,9 +73,15 @@ I want the header, newsletter box and footer backgrounds to strech full width wh
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #007CBA;
   color: white;
+  max-width: 175rem;
+  margin: auto;
 
+}
+
+.newsletter-background {
+  background: #007CBA;
+  width: 100%;
 }
 
 .img-icon {
@@ -135,10 +132,16 @@ button:hover {
 
 /* Header */
 
-.main-head {
+.header-background {
   background: #007CBA;
+  width: 100%;
+}
+
+.main-head {
   color: white;
   width: 100%;
+  max-width: 140rem;
+  margin: auto;
 }
 
 nav {
@@ -187,6 +190,8 @@ nav .current {
 .hero {
   display: flex;
   flex-wrap: wrap;
+  max-width: 175rem;
+  margin: auto;
 }
 
 .hero img {
@@ -213,6 +218,8 @@ nav .current {
   background-color: #FFEEEE;
   border-top-left-radius: 30%;
   padding-bottom: 6rem;
+  max-width: 175rem;
+  margin: auto;
 }
 
 .benefits-head {
@@ -266,6 +273,8 @@ nav .current {
 .about-us {
   display: flex;
   flex-wrap: wrap;
+  max-width: 175rem;
+  margin: auto;
 }
 
 .about-us img {
@@ -289,7 +298,7 @@ nav .current {
 
 /* Footer Section */
 
-footer {
+.footer-background {
   background: #007CBA;
   width: 100%;
 }
@@ -302,6 +311,8 @@ footer {
   display: grid;
   grid-template-columns: auto auto auto;
   min-height: 30vh;
+  max-width: 175rem;
+  margin: auto;
 }
 
 .footer-info {

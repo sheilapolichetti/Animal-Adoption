@@ -16,19 +16,19 @@
 </head>
 
 <body>
-  <!--Max width for big screens
-  <div class="big-screen-wrapper">-->
-  <header class="main-head">
-    <nav>
-      <h1 id="logo">Adoptionland</h1>
-      <ul>
-        <li><a class="current" href="#">Home</a></li>
-        <li><a href="#about-section">About</a></li>
-        <li><a href="./Animals right now/allanimals.html">Animals</a></li>
-        <li><a href="#"><img src="/icons/user.svg" height="30px" width="30px" alt="user"></a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="header-background">
+    <header class="main-head">
+      <nav>
+        <h1 id="logo">Adoptionland</h1>
+        <ul>
+          <li><a class="current" href="#">Home</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="./Animals right now/allanimals.html">Animals</a></li>
+          <li><a href="#"><img src="/icons/user.svg" height="30px" width="30px" alt="user"></a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
   <main>
     <section class="hero">
       <div class="hero-text">
@@ -77,15 +77,17 @@
         </div>
       </div>
     </section>
-    <section class="newsletter">
-      <h2>Our weekly newsletter</h2>
-      <p>Sign up for the latest (cat & dog) news!</p>
-      <div class="text-btn">
-        <label for="e-mail"></label>
-        <input type="text" id="e-mail" placeholder="Enter your E-mail...">
-        <button type="button"><i class="fa fa-arrow-right"></i></button>
-      </div>
-    </section>
+    <div class="newsletter-background">
+      <section class="newsletter">
+        <h2>Our weekly newsletter</h2>
+        <p>Sign up for the latest (cat & dog) news!</p>
+        <div class="text-btn">
+          <label for="e-mail"></label>
+          <input type="text" id="e-mail" placeholder="Enter your E-mail...">
+          <button type="button"><i class="fa fa-arrow-right"></i></button>
+        </div>
+      </section>
+    </div>
     <section class="about-us" id="about-section">
       <div class="about-img"><img src="./images/woman-and-dog.png" alt="woman and dog"></div>
       <div class="about-text">
@@ -101,36 +103,36 @@
       </div>
     </section>
   </main>
-
-  <footer>
-    <div class="footer-container">
-      <div class="footer-info">
-        <h3 class="logo-footer">Adoptionland</h3>
-        <p>Adoptionland is based in Stockholm, Sweden, and is<br> home to more than 100 dogs and cats.
-          Our wonderful <br>adoptable dogs and cats are waiting for you right now!</p>
+  <div class="footer-background">
+    <footer>
+      <div class="footer-container">
+        <div class="footer-info">
+          <h3 class="logo-footer">Adoptionland</h3>
+          <p>Adoptionland is based in Stockholm, Sweden, and is<br> home to more than 100 dogs and cats.
+            Our wonderful <br>adoptable dogs and cats are waiting for you right now!</p>
+        </div>
+        <div class="footer-links">
+          <h3>Pages</h3>
+          <ul>
+            <li><a href="./index.html">- HOME</a></li>
+            <li><a href="#">- ABOUT US</a></li>
+            <li><a href="./Animals right now/allanimals.html">- ADOPT TODAY</a></li>
+            <li><a href="#">- LOG IN</a></li>
+            <li><a href="./Contact/contact.html">- CONTACT</a></li>
+            <li><a href="#">- COOKIES & PRIVACY</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Give us a follow</h3>
+          <img src="./icons/twitter.svg" width="50px" height="50px" alt="twitter">
+          <img src="./icons/youtube.svg" width="50px" height="50px" alt="youtube">
+          <img src="./icons/instagram.svg" width="50px" height="50px" alt="instagram">
+        </div>
       </div>
-      <div class="footer-links">
-        <h3>Pages</h3>
-        <ul>
-          <li><a href="./index.html">- HOME</a></li>
-          <li><a href="#">- ABOUT US</a></li>
-          <li><a href="./Animals right now/allanimals.html">- ADOPT TODAY</a></li>
-          <li><a href="#">- LOG IN</a></li>
-          <li><a href="./Contact/contact.html">- CONTACT</a></li>
-          <li><a href="#">- COOKIES & PRIVACY</a></li>
-        </ul>
+      <div class="copy-box">
+        &copy; 2021 - By group 4, Sundsgårdens folkhögskola ;-)
       </div>
-      <div class="footer-social">
-        <h3>Give us a follow</h3>
-        <img src="./icons/twitter.svg" width="50px" height="50px" alt="twitter">
-        <img src="./icons/youtube.svg" width="50px" height="50px" alt="youtube">
-        <img src="./icons/instagram.svg" width="50px" height="50px" alt="instagram">
-      </div>
-    </div>
-    <div class="copy-box">
-      &copy; 2021 - By group 4, Sundsgårdens folkhögskola ;-)
-    </div>
-  </footer>
+    </footer>
   </div>
 </body>
 
